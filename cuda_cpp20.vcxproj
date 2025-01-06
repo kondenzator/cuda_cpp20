@@ -57,7 +57,7 @@
     </Link>
     <CudaCompile>
       <TargetMachinePlatform>64</TargetMachinePlatform>
-      <Defines>_HAS_CXX20</Defines>
+      <Defines>_HAS_CXX17;_HAS_CXX20</Defines>
     </CudaCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -78,7 +78,7 @@
     </Link>
     <CudaCompile>
       <TargetMachinePlatform>64</TargetMachinePlatform>
-      <Defines>_HAS_CXX20</Defines>
+      <Defines>_HAS_CXX17;_HAS_CXX20</Defines>
     </CudaCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
